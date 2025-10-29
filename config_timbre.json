@@ -1,0 +1,136 @@
+{
+  "timbrar_entrada": false,
+  "timbrar_fin_modulo": true,
+  "timbrar_recreo_inicio": true,
+  "timbrar_recreo_fin": true,
+  "timbrar_recreo_largo_inicio": true,
+  "timbrar_recreo_largo_fin": true,
+  "timbrar_fin_turno": true,
+  "duracion_timbre": 5,
+  "ultimo_esp32_ip": null,
+  "horarios_habilitados": false,
+  "horarios_personalizados_manana": [
+    {
+      "hora": "07:15",
+      "descripcion": "Entrada",
+      "tipo": "entrada"
+    },
+    {
+      "hora": "07:55",
+      "descripcion": "Fin 1° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "08:35",
+      "descripcion": "Fin 2° módulo - Recreo",
+      "tipo": "recreo_inicio"
+    },
+    {
+      "hora": "08:40",
+      "descripcion": "Fin recreo",
+      "tipo": "recreo_fin"
+    },
+    {
+      "hora": "09:20",
+      "descripcion": "Fin 3° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "10:00",
+      "descripcion": "Recreo largo",
+      "tipo": "recreo_largo_inicio"
+    },
+    {
+      "hora": "10:15",
+      "descripcion": "Fin recreo largo",
+      "tipo": "recreo_largo_fin"
+    },
+    {
+      "hora": "10:55",
+      "descripcion": "Fin 4° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "11:35",
+      "descripcion": "Fin 5° módulo - Recreo",
+      "tipo": "recreo_inicio"
+    },
+    {
+      "hora": "11:40",
+      "descripcion": "Fin recreo",
+      "tipo": "recreo_fin"
+    },
+    {
+      "hora": "12:20",
+      "descripcion": "Fin 6° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "13:00",
+      "descripcion": "Fin turno mañana",
+      "tipo": "fin_turno"
+    }
+  ],
+  "horarios_personalizados_tarde": [
+    {
+      "hora": "13:20",
+      "descripcion": "Entrada turno tarde",
+      "tipo": "entrada"
+    },
+    {
+      "hora": "14:00",
+      "descripcion": "Fin 1° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "14:40",
+      "descripcion": "Fin 2° módulo - Recreo",
+      "tipo": "recreo_inicio"
+    },
+    {
+      "hora": "14:45",
+      "descripcion": "Fin recreo",
+      "tipo": "recreo_fin"
+    },
+    {
+      "hora": "15:25",
+      "descripcion": "Fin 3° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "16:05",
+      "descripcion": "Recreo largo",
+      "tipo": "recreo_largo_inicio"
+    },
+    {
+      "hora": "16:20",
+      "descripcion": "Fin recreo largo",
+      "tipo": "recreo_largo_fin"
+    },
+    {
+      "hora": "17:00",
+      "descripcion": "Fin 4° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "17:40",
+      "descripcion": "Fin 5° módulo - Recreo",
+      "tipo": "recreo_inicio"
+    },
+    {
+      "hora": "17:45",
+      "descripcion": "Fin recreo",
+      "tipo": "recreo_fin"
+    },
+    {
+      "hora": "18:25",
+      "descripcion": "Fin 6° módulo",
+      "tipo": "fin_modulo"
+    },
+    {
+      "hora": "19:05",
+      "descripcion": "Fin turno tarde",
+      "tipo": "fin_turno"
+    }
+  ]
+}
