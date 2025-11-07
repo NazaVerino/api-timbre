@@ -85,8 +85,9 @@ def update_esp32_ip():
 def timbrar():
     tipo = request.json.get("tipo", "manual")
     print(f"🛎️ Timbre activado ({tipo})")
-    # Aquí podrías hacer un request al ESP32 real
     return jsonify({"message": f"Timbre activado ({tipo})"})
 
+# 🔹 Arranque del servidor (ajuste para Render)
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
